@@ -5,7 +5,7 @@ variable, constante;
 console.log;
 
 récupération de données :
-- getElemntById
+- getElementById
 - getElementsByTagName
 - getElementsByName
 - querySelector
