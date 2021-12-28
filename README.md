@@ -20,4 +20,5 @@ changer une class, du texte, une image...
 - ClassName, ClassList, raccourci. 
 - toggle et contains survolés. 
 
+
 - addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
