@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener</title>
+</head>
+<body>
+    <h1>Les évènements</h1>
+
+    <p>Cliquez-moi !</p>
+
+    <p>Deuxième paragraphe</p>
+
+    <p id="p2">Cliquez-moi aussi !!!</p>
+
+    <p id="p3">Yo !</p>
+    
+    <script>
+        var p1 = document.querySelector('p');
+
+        p1.addEventListener('click', changeTexte);
+        //pas de parenthèse à la function changeText pour
+        //qu'elle s'active uniquement quand l'utilisateur clique
+
+        function changeTexte() {
+            this.innerHTML = "<strong>Bravo !</strong>";
+            this.style.color = "orange";
+        }
+
+        /*
+        fonction permettant de changer texte et aspect au clic
+        version courte :
+
+        p1.addEventListerner('click', function(){
+            this.innerHTML = "<strong>Bravo !</strong>";
+            this.style.color = "orange";
+        });
+        
+        
+        */
+
+        //addEventListener permet de lier plusieurs évènements
+        var p2 = document.getElementById("p2");
+
+        p2.addEventListener('click', Message1);
+        p2.addEventListener('click', Message2);
+
+        function Message1() {
+            alert("Premier message");
+        }
+
+        function Message2() {
+            alert("Deuxième message");
+        }
+        //2 message s'affichent à la suite
+
+        
+
+    </script>
+</body>
+</html>

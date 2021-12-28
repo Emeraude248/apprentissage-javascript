@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener</title>
+</head>
+<body>
+    <h1>Les évènements</h1>
+
+    <p>Cliquez-moi !</p>
+
+    <p>Deuxième paragraphe</p>
+
+    <p id="p2">Passe-moi dessus !!!</p>
+
+    <p id="p3">Yo !</p>
+    
+    <script>
+        var p1 = document.querySelector('p');
+
+        p1.addEventListener('click', changeTexte);
+        //pas de parenthèse à la function changeText pour
+        //qu'elle s'active uniquement quand l'utilisateur clique
+
+        function changeTexte() {
+            this.innerHTML = "<strong>Bravo !</strong>";
+            this.style.color = "orange";
+        }
+
+        /*
+        fonction permettant de changer texte et aspect au clic
+        version courte :
+
+        p1.addEventListerner('click', function(){
+            this.innerHTML = "<strong>Bravo !</strong>";
+            this.style.color = "orange";
+        });
+        
+        
+        */
+
+        //addEventListener permet de lier plusieurs évènements
+        var p2 = document.getElementById("p2");
+
+        p2.addEventListener('mouseover', Fonction1);
+        p2.addEventListener('mouseout', Reset1);
+        p2.addEventListener('mousedown', Fonction2);
+        p2.addEventListener('mouseup', Reset2);
+
+        function Fonction1() {
+            this.innerHTML = 'Cliquez-moi maintenant';
+            this.style.backgroundColor = 'orange';
+        }
+
+        function Fonction2() {
+            this.innerHTML = 'Bravo';
+            this.style.color = '#26C';
+            this.style.fontWeight = 'bold';
+            this.style.fontSize = '24px';
+        }
+        //2 évènements à la suite
+
+        function Reset1() {
+            this.innerHTML = 'Passe-moi encore dessus !!'
+            this.style.backgroundColor = ''
+        }
+
+        function Reset2() {
+            this.innerHTML = 'Passe-moi encore dessus !!';
+            this.style.color = '';
+            this.style.fontWeight = '';
+            this.style.fontSize = '';
+        }
+
+
+
+    </script>
+</body>
+</html>
