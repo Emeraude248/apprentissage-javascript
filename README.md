@@ -10,7 +10,6 @@ console.log;
 - getElementsByTagName
 - getElementsByName
 - querySelector
-
 - querySelectorAll
 
 ## modifier du HTML par javascript
@@ -19,5 +18,4 @@ changer une class, du texte, une image...
 - getAttribute, setAttribute, raccourcis. 
 - ClassName, ClassList, raccourci. 
 - toggle et contains survolés. 
-+
 - addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
