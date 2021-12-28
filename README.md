@@ -4,14 +4,14 @@ alert, confirm, prompt;
 variable, constante;
 console.log;
 
-récupération de données :
+## récupération de données :
 - getElementById
 - getElementsByTagName
 - getElementsByName
 - querySelector
 - querySelectorAll
 
-# modifier du HTML par javascript
+## modifier du HTML par javascript
 
 changer une class, du texte, une image...
 - getAttribute, setAttribute, raccourcis. 
