@@ -10,6 +10,7 @@ console.log;
 - getElementsByTagName
 - getElementsByName
 - querySelector
+
 - querySelectorAll
 
 ## modifier du HTML par javascript
