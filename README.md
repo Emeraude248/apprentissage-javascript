@@ -15,5 +15,5 @@ récupération de données :
 
 changer une class, du texte, une image...
 - getAttribute, setAttribute, raccourcis. 
-- -ClassName, ClassList, raccourci. 
-- -toggle et contains survolés. 
+- ClassName, ClassList, raccourci. 
+- toggle et contains survolés. 
