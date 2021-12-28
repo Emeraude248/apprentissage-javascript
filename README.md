@@ -10,3 +10,7 @@ récupération de données :
 - getElementsByName
 - querySelector
 - querySelectorAll
+
+modifier du HTML par javascript
+getAttribute, setAttribute, raccourcis. ClassName, ClassList, raccourci. toggle et contains survolés. 
+changer une class, du texte, une image...
