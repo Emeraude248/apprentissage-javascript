@@ -11,6 +11,9 @@ récupération de données :
 - querySelector
 - querySelectorAll
 
-modifier du HTML par javascript
-getAttribute, setAttribute, raccourcis. ClassName, ClassList, raccourci. toggle et contains survolés. 
+# modifier du HTML par javascript
+
 changer une class, du texte, une image...
+- getAttribute, setAttribute, raccourcis. 
+- -ClassName, ClassList, raccourci. 
+- -toggle et contains survolés. 
