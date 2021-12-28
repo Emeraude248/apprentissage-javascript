@@ -17,3 +17,5 @@ changer une class, du texte, une image...
 - getAttribute, setAttribute, raccourcis. 
 - ClassName, ClassList, raccourci. 
 - toggle et contains survolés. 
+
+- addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
