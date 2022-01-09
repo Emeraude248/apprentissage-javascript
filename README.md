@@ -19,3 +19,7 @@ changer une class, du texte, une image...
 - ClassName, ClassList, raccourci. 
 - toggle et contains survolés. 
 - addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
+
+## freeCodeCamp
+
+for, indexOf, push, tableau complexe, ajouté entrée dans objet, objects dans objets
