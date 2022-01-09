@@ -6,19 +6,13 @@ console.log;
 
 ## récupération de données :
 
-- getElementById
-- getElementsByTagName
-- getElementsByName
-- querySelector
-- querySelectorAll
+getElementById, getElementsByTagName, getElementsByName, querySelector, querySelectorAll
 
 ## modifier du HTML par javascript
 
-changer une class, du texte, une image...
-- getAttribute, setAttribute, raccourcis. 
-- ClassName, ClassList, raccourci. 
-- toggle et contains survolés. 
-- addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
+changer une class, du texte, une image...; getAttribute, setAttribute, raccourcis ; 
+ClassName, ClassList, raccourci ; toggle et contains survolés ; 
+addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
 
 ## freeCodeCamp
 
