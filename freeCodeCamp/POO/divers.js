@@ -59,3 +59,5 @@ function House(numBedrooms) {
   
   console.log(beagle); //renvoie 3
   console.log(terrier);//renvoie 3
+
+  //
