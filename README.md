@@ -16,4 +16,7 @@ addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
 
 ## freeCodeCamp
 
-for, indexOf, push, tableau complexe, ajouté entrée dans objet, objects dans objets
+for, indexOf, push, tableau complexe, ajouté entrée dans objet, objects dans objets ;
+ajouter entrée tab, delete, for in (vérif valeur), if, hasOwnProperty ou in(vérif propriétés), object.keys tab;
+
+divers : function, instanceOf, propriétés propres d'une fonction, prototype...
