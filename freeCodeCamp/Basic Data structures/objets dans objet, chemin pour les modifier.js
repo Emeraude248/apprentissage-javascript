@@ -6,6 +6,8 @@ let userActivity = {
       online: 42
     }
   };
+  //objet dans objet car data contient des propriétés (totalUsers et online) 
+  //data est à la fois propritété de userActivity et objet de totalUsers et online
   
   // Only change code below this line
   userActivity.data.online = 45
