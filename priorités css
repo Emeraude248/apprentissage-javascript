@@ -1,5 +1,5 @@
 priorités :
 
-#id > .class > baliseHTML
+style directement dans la div > #id > .class > baliseHTML
 
 une id sera donc jouée en priorité si elle entre en conccurrence avec une class ou une balise
