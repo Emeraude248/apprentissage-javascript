@@ -48,3 +48,12 @@ testSeule();
 (() => {
   console.log("Hello there !");
 })();
+
+/*variables et fonctions
+si besoin d'une variable dans plusieurs fonction
+la définie au dessus, sinon dedans c'est très bien
+
+js lis le script de haut en bas, toujours définir la variable avant de l'utiliser ^^
+
+const puis let puis fonctions
+*/
