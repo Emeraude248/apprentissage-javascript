@@ -30,3 +30,6 @@ console.log(typeof obj.age);
 console.log(typeof arr[0]);
 
 //différence de traitement néanmoins pour récup données
+
+
+//penser à log un maximum les variabes au fur et à mesure, tester un maximum les lignes de code
