@@ -16,9 +16,16 @@ const questionContainer = document.querySelector(".click-event");
 
 questionContainer.style.borderRadius = "150px";
 
-
 //si plusieurs éléments à transformer créer une classe spécifique liée à un événement
 questionContainer.addEventListener("click", () => {
   questionContainer.classList.add("question-clicked");
 });
- //.question-clicked défini dans le fichir css
+//.question-clicked défini dans le fichir css
+//add et remove pour retirer
+
+//mmieux utilisation de toggle, add la class si pas, remove si  class mise
+
+questionContainer.addEventListener("click", () => {
+  questionContainer.classList.toggle("question-clicked");
+});
+
