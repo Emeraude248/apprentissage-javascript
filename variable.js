@@ -8,3 +8,25 @@ let admin;
 let name = 'John';
 admin = name;
 alert(admin);
+
+//ajout différence object et tableau mais object ^^
+
+let obj = {
+  prénom: "Aude",
+  age: 33,
+  ville: "Arras",
+};
+
+console.log(typeof obj);
+
+let arr = ["je", "suis", "fatiguée", "><"];
+
+console.log(typeof arr);
+
+//object et tableau = object dans js
+
+console.log(typeof obj.age);
+
+console.log(typeof arr[0]);
+
+//différence de traitement néanmoins pour récup données
