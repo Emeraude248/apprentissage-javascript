@@ -23,9 +23,11 @@ questionContainer.addEventListener("click", () => {
 //.question-clicked défini dans le fichir css
 //add et remove pour retirer
 
-//mmieux utilisation de toggle, add la class si pas, remove si  class mise
+//mmieux utilisation de toggle, add la class si pas, remove si class mise
 
 questionContainer.addEventListener("click", () => {
   questionContainer.classList.toggle("question-clicked");
 });
+
+//grave utile pour les boutons ^^
 
