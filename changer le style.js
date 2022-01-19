@@ -15,3 +15,10 @@ const questionContainer = document.querySelector(".click-event");
 //dans le doc il y a une div ayant la class click-event
 
 questionContainer.style.borderRadius = "150px";
+
+
+//si plusieurs éléments à transformer créer une classe spécifique liée à un événement
+questionContainer.addEventListener("click", () => {
+  questionContainer.classList.add("question-clicked");
+});
+ //.question-clicked défini dans le fichir css
