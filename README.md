@@ -11,7 +11,7 @@ getElementById, getElementsByTagName, getElementsByName, querySelector, querySel
 ## modifier du HTML par javascript
 
 changer une class, du texte, une image...; getAttribute, setAttribute, raccourcis ; 
-ClassName, ClassList, raccourci ; toggle et contains survolés ; 
+ClassName, ClassList, raccourci ; toggle et contains survolés ; toggle dans changer le style ;
 addEventlistener (click, mouseover, mouseout, mousedown, mouseup)
 
 ## freeCodeCamp
