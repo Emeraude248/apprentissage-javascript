@@ -1,0 +1,25 @@
+//créer une class est une structure pour de prochaine instance de cette class
+//le constructor est nécessaire, c'est lui qui défini les propriétés de la class (le squelette, les éléments des futures instances/objets)
+//il est possible aussi d'ajouter des méthode à la class (addRating) : méthode d'instance
+//pour créer une instance de la class il suffit de l'appeler avec new à la création d'un variable
+//const/let newShow = new Show(newTitle, 5);
+
+
+class Show {
+  constructor(title, numberOfSeasons) {
+    this.title = title;
+    this.numberOfSeasons = numberOfSeasons;
+    this.ratings = [];
+    this.averageRating = 0;
+  }
+  
+  addRating(rating) {
+    this.ratings.push(rating);
+    let sum = 0;
+    for (let rating of this.ratings) {
+      sum += rating;
+    }
+    this.averageRating = sum/this.ratings.length;
+  }
+  
+}
