@@ -1,0 +1,25 @@
+const calculateAverageRating = (arr) => {
+  let somme = 0;
+  for(let i = 0; i < arr.length; i++) {
+    somme += arr[i];
+  }
+  const res = somme/(arr.length+1);
+  return res;
+  }
+  
+  //fonctionne mais mieux :
+  
+  const calculateAverageRating = (ratings) => {
+  
+  let sum = 0;
+  for (let rating of ratings) {
+    sum += rating;
+  }
+  
+  return sum / ratings.length;
+}
+
+//for of bien mieux qu'une boucle i à la con ^^
+//for (déclaration de la variable qui passera une à une les entrée, OF élément à passer au crible)
+//en général noms proches ce qui amène parfois de la confusion chez moi
+//ici rating est la variable nécessaire à la boucle for of et ratings l'argument de la fonction au sein de laquelle se fera la boucle
