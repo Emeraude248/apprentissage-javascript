@@ -25,3 +25,6 @@ divers : function, instanceOf, propriétés propres d'une fonction, prototype...
 
 - mouse event (mouseup, down, enter, out, move), style.(transform, bg, ... pageX, pageY), classList.add, "toggle
 
+## encore des trucs à savoir
+- boucle for of (top)
+- class, constructor et méthode d'instance
