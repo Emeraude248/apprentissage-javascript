@@ -1,0 +1,21 @@
+//la méthode statique sont défini par le terme static
+//ce sont des méthode de class sans instance
+
+class BePolite {
+
+static sayHello() {
+console.log("Hello!");
+}
+
+static sayHelloTo(name) '
+console.log("Hello " + name + "!");
+}
+
+//ici pas besoin de constructor à la classe, pas d'instance prévue
+//pour utiliser les méthodes :
+
+BePolite.sayHello();
+
+BePolite.sayHelloTo("Aude");
+
+//ça autait pu être des fonction, avantage de cette méthode (lol) regrouper par catégorie/type
